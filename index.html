@@ -17,15 +17,17 @@
     <title>Creative Hookers</title>
 </head>
 <body>
-    <nav class="header-nav flex">
-        <div>
-            <img class="logo" src="images/logoIdeaSmall.gif" alt="small logo">            
-        </div>
-        <div class="nav-goto flex">
-            <a href="#main">Home</a>
-            <a href="#products">Products</a>
-            <a href="#contact">Contact</a>
-        </div>
+    <nav class="header-nav">
+        <div class="header-nav-container flex">
+           <div>
+                <img class="logo" src="images/logoIdeaSmall.gif" alt="small logo">            
+            </div>
+            <div class="nav-goto flex">
+                <a href="#main">Home</a>
+                <a href="#products">Products</a>
+                <a href="#contact">Contact</a>
+            </div> 
+        </div>        
     </nav>
     <main class="container">
         <section id="main" class="hero">
@@ -33,37 +35,28 @@
             <div class="pic-grids">
                 <ol class="grid-scroller-container">
                     <li id="carosel-slide1" class="grid-one carousel-slide" tabindex="0">
-                        <div class="carousel-snapper">
-                            <a href="#carose1-slide3" class="carousel-prev"></a>
-                            <a href="#carose1-slide2" class="carousel-next"></a>
-                        </div>
-                        <img class="g-one-pic-one" src="images/webP/bagGroup.webp" alt="bags">
-                        <img class="g-one-pic-two" src="images/webP/customTeacher5.webp" alt="apple">
-                        <img class="g-one-pic-three" src="images/webP/golfClubCover.webp" alt="golf cover">
-                        <img class="g-one-pic-four" src="images/webP/coaster2.webp" alt="coaster">
-                        <img class="g-one-pic-five" src="images/webP/beanie7.webp" alt="beanie">
-                        <img class="g-one-pic-six" src="images/webP/bearHeadBlanket.webp" alt="bear head">
+                        <div class="carousel-snapper"></div>
+                        <img class="g-one-pic-one" src="images/webP/other/bagGroup.webp" alt="bags">
+                        <img class="g-one-pic-two" src="images/webP/plushies/customTeacher5.webp" alt="apple">
+                        <img class="g-one-pic-three" src="images/webP/other/golfClubCover.webp" alt="golf cover">
+                        <img class="g-one-pic-four" src="images/webP/other/coaster2.webp" alt="coaster">
+                        <img class="g-one-pic-five" src="images/webP/hats/beanie7.webp" alt="beanie">
+                        <img class="g-one-pic-six" src="images/webP/blankets/bearHeadBlanket.webp" alt="bear head">
                     </li>
                     <li id="carosel-slide2" class="grid-two carousel-slide" tabindex="0">
-                        <div class="carousel-snapper">
-                            <a href="#carosel-slide1" class="carousel-prev"></a>
-                            <a href="#carosel-slide3" class="carousel-next"></a>
-                        </div>
-                        <img class="g-two-pic-one" src="images/webP/starBlanket1.webp" alt="star blanket">
-                        <img class="g-two-pic-two" src="images/webP/zombieBrainHoodie2.webp" alt="zombie hoodie">
-                        <img class="g-two-pic-three" src="images/webP/mouseBlanket.webp" alt="mouse blanket">
-                        <img class="g-two-pic-four" src="images/webP/popSickle.webp" alt="pop sickle">
+                        <div class="carousel-snapper"></div>
+                        <img class="g-two-pic-one" src="images/webP/blankets/starBlanket1.webp" alt="star blanket">
+                        <img class="g-two-pic-two" src="images/webP/hats/zombieBrainHoodie2.webp" alt="zombie hoodie">
+                        <img class="g-two-pic-three" src="images/webP/blankets/mouseBlanket.webp" alt="mouse blanket">
+                        <img class="g-two-pic-four" src="images/webP/plushies/popSickle.webp" alt="pop sickle">
                     </li>
                     <li id="carosel-slide3" class="grid-three carousel-slide" tabindex="0">
-                        <div class="carousel-snapper">
-                            <a href="#carosel-slide2" class="carousel-prev"></a>
-                            <a href="#carosel-slide1" class="carousel-next"></a>
-                        </div>
-                        <img class="g-three-pic-one" src="images/webP/heartBlanket.webp" alt="heart blanket">
-                        <img class="g-three-pic-two" src="images/webP/gnome.webp" alt="gnome">
-                        <img class="g-three-pic-three" src="images/webP/bunny2.webp" alt="bunny">
-                        <img class="g-three-pic-four" src="images/webP/hoodieHorns.webp" alt="horned hoodie">
-                        <img class="g-three-pic-five" src="images/webP/legShark.webp" alt="leg shark">
+                        <div class="carousel-snapper"></div>
+                        <img class="g-three-pic-one" src="images/webP/blankets/heartBlanket.webp" alt="heart blanket">
+                        <img class="g-three-pic-two" src="images/webP/plushies/gnome.webp" alt="gnome">
+                        <img class="g-three-pic-three" src="images/webP/plushies/bunny2.webp" alt="bunny">
+                        <img class="g-three-pic-four" src="images/webP/hats/hoodieHorns.webp" alt="horned hoodie">
+                        <img class="g-three-pic-five" src="images/webP/other/legShark.webp" alt="leg shark">
                     </li>
                 </ol>
                 <aside class="carousel-nav">
@@ -84,7 +77,232 @@
         </section>
 
         <section id="products" class="products">
-            <h2>Products</h2>
+            <div class="products-info">
+                <h2>Products</h2>
+                <p>All items are custom made to order, the time required and cost of the items depends on complexity and available materials. If you see anything you like or have an idea of what you would like to see created, <a class="products-contact-link" href="#contact">Contact us!</a></p>
+            </div>
+
+            <div class="dropdown">
+                <div class="dropdown-section">
+                    <div class="product-type">
+                        <h3 class="product-name">Blankets</h3>
+                    </div>
+                    <div class="product-pics">
+                        <div class="product-pic-content">
+                            <div class="product-image-container">
+                                <img class="product-image" src="images/webP/blankets/babyBlanketHat.webp" alt="baby blanket" loading="lazy">
+                                <img class="product-image" src="images/webP/blankets/bearHeadBlanket.webp" alt="bear blanket" loading="lazy">
+                                <img class="product-image" src="images/webP/blankets/blanket.webp" alt="blanket" loading="lazy">
+                                <img class="product-image" src="images/webP/blankets/cptMurkaBlanket.webp" alt="cm blanket" loading="lazy">
+                                <img class="product-image" src="images/webP/blankets/cptMurkaBlanket2.webp" alt="cm blanket 2" loading="lazy">
+                                <img class="product-image" src="images/webP/blankets/heartBlanket.webp" alt="heart blanket" loading="lazy">
+                                <img class="product-image" src="images/webP/blankets/heroBlanket.webp" alt="hero blanket" loading="lazy">
+                                <img class="product-image" src="images/webP/blankets/lap-babyBlanket1.webp" alt="baby blanket" loading="lazy">
+                                <img class="product-image" src="images/webP/blankets/lap-babyBlanket2.webp" alt="baby blanket" loading="lazy">
+                                <img class="product-image" src="images/webP/blankets/lap-babyBlanket3.webp" alt="baby blanket" loading="lazy">
+                                <img class="product-image" src="images/webP/blankets/lap-babyBlanket4.webp" alt="baby blanket" loading="lazy">
+                                <img class="product-image" src="images/webP/blankets/mouseBlanket.webp" alt="mouse blanket" loading="lazy">
+                                <img class="product-image" src="images/webP/blankets/princessBlanket.webp" alt="princess blanket" loading="lazy">
+                                <img class="product-image" src="images/webP/blankets/puzzleBlanket.webp" alt="puzzle blanket" loading="lazy">
+                                <img class="product-image" src="images/webP/blankets/redBabyBlanket.webp" alt="red blanket" loading="lazy">
+                                <img class="product-image" src="images/webP/blankets/starBlanket1.webp" alt="star blanket" loading="lazy">
+                                <img class="product-image" src="images/webP/blankets/starBlanket2.webp" alt="star blanket 2" loading="lazy">
+                                <img class="product-image" src="images/webP/blankets/supperManBlanket.webp" alt="supper blanket" loading="lazy">
+                                <img class="product-image" src="images/webP/blankets/woobie1.jpeg" alt="woobie" loading="lazy">
+                                <img class="product-image" src="images/webP/blankets/woobie2.jpeg" alt="woobie" loading="lazy">
+                                <img class="product-image" src="images/webP/blankets/woobie3.jpeg" alt="woobie" loading="lazy">
+                                <img class="product-image" src="images/webP/blankets/woobie4.jpg" alt="woobie" loading="lazy">
+                                <img class="product-image" src="images/webP/blankets/woobie5.jpeg" alt="woobie" loading="lazy">
+                                <img class="product-image" src="images/webP/blankets/woobie6.jpeg" alt="woobie" loading="lazy">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="divider-line"></div>
+
+            <div class="dropdown">
+                <div class="dropdown-section">
+                    <div class="product-type">
+                        <h3 class="product-name">Plushies</h3>
+                    </div>
+                    <div class="product-pics">
+                        <div class="product-pic-content">
+                            <div class="product-image-container">
+                                <img class="product-image" src="images/webP/plushies/babyBaphi.webp" alt="baphi" loading="lazy">
+                                <img class="product-image" src="images/webP/plushies/beeBow.webp" alt="bee" loading="lazy">
+                                <img class="product-image" src="images/webP/plushies/beeBowSide.webp" alt="bee side" loading="lazy">
+                                <img class="product-image" src="images/webP/plushies/bunbun1.webp" alt="bun" loading="lazy">
+                                <img class="product-image" src="images/webP/plushies/bunbun2.webp" alt="bun 2" loading="lazy">
+                                <img class="product-image" src="images/webP/plushies/bunny.webp" alt="bunny" loading="lazy">
+                                <img class="product-image" src="images/webP/plushies/bunny2.webp" alt="bunny 2" loading="lazy">
+                                <img class="product-image" src="images/webP/plushies/camoBear.webp" alt="bear" loading="lazy">
+                                <img class="product-image" src="images/webP/plushies/customTeacher3.webp" alt="teacher item" loading="lazy">
+                                <img class="product-image" src="images/webP/plushies/customTeacher4.webp" alt="teacher item" loading="lazy">
+                                <img class="product-image" src="images/webP/plushies/customTeacher5.webp" alt="teacher item" loading="lazy">
+                                <img class="product-image" src="images/webP/plushies/deerBundle.webp" alt="deer" loading="lazy">
+                                <img class="product-image" src="images/webP/plushies/ffCharacters.webp" alt="game characters" loading="lazy">
+                                <img class="product-image" src="images/webP/plushies/flipOcto.webp" alt="octo" loading="lazy">
+                                <img class="product-image" src="images/webP/plushies/frog.webp" alt="frog" loading="lazy">
+                                <img class="product-image" src="images/webP/plushies/gnome.webp" alt="gnome" loading="lazy">
+                                <img class="product-image" src="images/webP/plushies/gnome2.webp" alt="gnome 2" loading="lazy">
+                                <img class="product-image" src="images/webP/plushies/heroRagDoll.webp" alt="hero" loading="lazy">
+                                <img class="product-image" src="images/webP/plushies/pigPlusGifts.webp" alt="asorted" loading="lazy">
+                                <img class="product-image" src="images/webP/plushies/pigScarf.webp" alt="pig" loading="lazy">
+                                <img class="product-image" src="images/webP/plushies/pineapple.webp" alt="pineapple" loading="lazy">
+                                <img class="product-image" src="images/webP/plushies/pinkEle.webp" alt="ele" loading="lazy">
+                                <img class="product-image" src="images/webP/plushies/popSickle.webp" alt="popsickle" loading="lazy">
+                                <img class="product-image" src="images/webP/plushies/stuffedApple.webp" alt="apple" loading="lazy">
+                                <img class="product-image" src="images/webP/plushies/unicorn.webp" alt="unicorn" loading="lazy">
+                                <img class="product-image" src="images/webP/plushies/uniPillow.webp" alt="pillow" loading="lazy">
+                                <img class="product-image" src="images/webP/plushies/voodooBunny.webp" alt="voodoo" loading="lazy">                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="divider-line"></div>
+
+            <div class="dropdown">
+                <div class="dropdown-section">
+                    <div class="product-type">
+                        <h3 class="product-name">Hats</h3>
+                    </div>
+                    <div class="product-pics">
+                        <div class="product-pic-content">
+                            <div class="product-image-container">
+                                <img class="product-image" src="images/webP/hats/baphiHoodie.webp" alt="baphi" loading="lazy">
+                                <img class="product-image" src="images/webP/hats/beanie1.webp" alt="beanie" loading="lazy">
+                                <img class="product-image" src="images/webP/hats/beanie2.webp" alt="beanie" loading="lazy">
+                                <img class="product-image" src="images/webP/hats/beanie3.webp" alt="beanie" loading="lazy">
+                                <img class="product-image" src="images/webP/hats/beanie4.webp" alt="beanie" loading="lazy">
+                                <img class="product-image" src="images/webP/hats/beanie5.webp" alt="beanie" loading="lazy">
+                                <img class="product-image" src="images/webP/hats/beanie6.webp" alt="beanie" loading="lazy">
+                                <img class="product-image" src="images/webP/hats/beanie7.webp" alt="beanie" loading="lazy">
+                                <img class="product-image" src="images/webP/hats/beanieHeadBack.webp" alt="beanie" loading="lazy">
+                                <img class="product-image" src="images/webP/hats/beanieHeadFront.webp" alt="beanie" loading="lazy">
+                                <img class="product-image" src="images/webP/hats/beanieHeadSide.webp" alt="beanie" loading="lazy">
+                                <img class="product-image" src="images/webP/hats/dinoHat.webp" alt="dino" loading="lazy">
+                                <img class="product-image" src="images/webP/hats/earWarmerBack.webp" alt="earWarmer" loading="lazy">
+                                <img class="product-image" src="images/webP/hats/earWarmerDisplay1.webp" alt="earWarmer" loading="lazy">
+                                <img class="product-image" src="images/webP/hats/earWarmerDisplay2.webp" alt="earWarmer" loading="lazy">
+                                <img class="product-image" src="images/webP/hats/earWarmerDisplay3.webp" alt="earWarmer" loading="lazy">
+                                <img class="product-image" src="images/webP/hats/earWarmerDisplay4.webp" alt="earWarmer" loading="lazy">
+                                <img class="product-image" src="images/webP/hats/earWarmerFront.webp" alt="earWarmer" loading="lazy">
+                                <img class="product-image" src="images/webP/hats/earWarmerSide.webp" alt="earWarmer" loading="lazy">
+                                <img class="product-image" src="images/webP/hats/flowerHairClamp.webp" alt="hair clips" loading="lazy">
+                                <img class="product-image" src="images/webP/hats/hairClips2.webp" alt="hair clips" loading="lazy">
+                                <img class="product-image" src="images/webP/hats/headScarf1.webp" alt="headScarf" loading="lazy">
+                                <img class="product-image" src="images/webP/hats/headScarf2.webp" alt="headScarf" loading="lazy">
+                                <img class="product-image" src="images/webP/hats/headScarf3.webp" alt="headScarf" loading="lazy">
+                                <img class="product-image" src="images/webP/hats/headScarf4.webp" alt="headScarf" loading="lazy">
+                                <img class="product-image" src="images/webP/hats/headScarf5.webp" alt="headScarf" loading="lazy">
+                                <img class="product-image" src="images/webP/hats/headScarf6.webp" alt="headScarf" loading="lazy">
+                                <img class="product-image" src="images/webP/hats/headScarfBack.webp" alt="headScarf" loading="lazy">
+                                <img class="product-image" src="images/webP/hats/headScarfDemo.webp" alt="headScarf" loading="lazy">
+                                <img class="product-image" src="images/webP/hats/headScarfFront.webp" alt="headScarf" loading="lazy">
+                                <img class="product-image" src="images/webP/hats/headScarfSide.webp" alt="headScarf" loading="lazy">
+                                <img class="product-image" src="images/webP/hats/hoodieHorns.webp" alt="horned hoodie" loading="lazy">
+                                <img class="product-image" src="images/webP/hats/pumpkinHoodie.webp" alt="pumpkin hoodie" loading="lazy">
+                                <img class="product-image" src="images/webP/hats/scrunchie1.webp" alt="scrunchie" loading="lazy">
+                                <img class="product-image" src="images/webP/hats/scrunchie2.webp" alt="scrunchie" loading="lazy">
+                                <img class="product-image" src="images/webP/hats/zombieBrainHoodie.webp" alt="zombieBrainHoodie" loading="lazy">
+                                <img class="product-image" src="images/webP/hats/zombieBrainHoodie2.webp" alt="zombieBrainHoodie" loading="lazy">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="divider-line"></div>
+
+            <div class="dropdown">
+                <div class="dropdown-section">
+                    <div class="product-type">
+                        <h3 class="product-name">Other</h3>
+                    </div>
+                    <div class="product-pics">
+                        <div class="product-pic-content">
+                            <div class="product-image-container">
+                                <img class="product-image" src="images/webP/other/bag.webp" alt="bag" loading="lazy">
+                                <img class="product-image" src="images/webP/other/bagGroup.webp" alt="bag group" loading="lazy">
+                                <img class="product-image" src="images/webP/other/bookMark2.webp" alt="book mark" loading="lazy">
+                                <img class="product-image" src="images/webP/other/bookMarks1.webp" alt="book mark" loading="lazy">
+                                <img class="product-image" src="images/webP/other/coaster1.webp" alt="coaster" loading="lazy">
+                                <img class="product-image" src="images/webP/other/coaster2.webp" alt="coaster" loading="lazy">
+                                <img class="product-image" src="images/webP/other/coaster3.webp" alt="coaster" loading="lazy">
+                                <img class="product-image" src="images/webP/other/cupCozies.webp" alt="cupCozies" loading="lazy">
+                                <img class="product-image" src="images/webP/other/cupCozies1.webp" alt="cupCozies" loading="lazy">
+                                <img class="product-image" src="images/webP/other/cupCozies2.webp" alt="cupCozies" loading="lazy">
+                                <img class="product-image" src="images/webP/other/cupCozies3.webp" alt="cupCozies" loading="lazy">
+                                <img class="product-image" src="images/webP/other/cupCozies4.webp" alt="cupCozies" loading="lazy">
+                                <img class="product-image" src="images/webP/other/cupCozies5.webp" alt="cupCozies" loading="lazy">
+                                <img class="product-image" src="images/webP/other/customTeacher1.webp" alt="teacher gifts" loading="lazy">
+                                <img class="product-image" src="images/webP/other/customTeacher2.webp" alt="teacher gifts" loading="lazy">
+                                <img class="product-image" src="images/webP/other/donutPillows.webp" alt="pillow" loading="lazy">
+                                <img class="product-image" src="images/webP/other/eggMonsters.webp" alt="egg mosnster" loading="lazy">
+                                <img class="product-image" src="images/webP/other/eggPigCandy.webp" alt="egg pig" loading="lazy">
+                                <img class="product-image" src="images/webP/other/faceScrubies.webp" alt="scrubies" loading="lazy">
+                                <img class="product-image" src="images/webP/other/footballBinky.webp" alt="binky" loading="lazy">
+                                <img class="product-image" src="images/webP/other/generalBags.webp" alt="general bags" loading="lazy">
+                                <img class="product-image" src="images/webP/other/golfClubCover.webp" alt="golf cover" loading="lazy">
+                                <img class="product-image" src="images/webP/other/holloweenBags.webp" alt="holloween bags" loading="lazy">
+                                <img class="product-image" src="images/webP/other/jarOpeners1.webp" alt="jarOpeners" loading="lazy">
+                                <img class="product-image" src="images/webP/other/jarOpeners2.webp" alt="jarOpeners" loading="lazy">
+                                <img class="product-image" src="images/webP/other/jarOpeners3.webp" alt="jarOpeners" loading="lazy">
+                                <img class="product-image" src="images/webP/other/jarOpeners4.webp" alt="jarOpeners" loading="lazy">
+                                <img class="product-image" src="images/webP/other/jarOpeners5.webp" alt="jarOpeners" loading="lazy">
+                                <img class="product-image" src="images/webP/other/jarOpeners6.webp" alt="jarOpeners" loading="lazy">
+                                <img class="product-image" src="images/webP/other/jarOpenersDisplay.webp" alt="jarOpeners" loading="lazy">
+                                <img class="product-image" src="images/webP/other/legShark.webp" alt="leg sock" loading="lazy">
+                                <img class="product-image" src="images/webP/other/legShark2.webp" alt="leg sock" loading="lazy">
+                                <img class="product-image" src="images/webP/other/marketBag1.webp" alt="market bag" loading="lazy">
+                                <img class="product-image" src="images/webP/other/marketBag2.webp" alt="market bag" loading="lazy">
+                                <img class="product-image" src="images/webP/other/marketBag3.webp" alt="market bag" loading="lazy">
+                                <img class="product-image" src="images/webP/other/mouseOrdament.webp" alt="ordament" loading="lazy">
+                                <img class="product-image" src="images/webP/other/scarf.webp" alt="scarf" loading="lazy">
+                                <img class="product-image" src="images/webP/other/sharkLegSock.webp" alt="leg sock" loading="lazy">
+                                <img class="product-image" src="images/webP/other/stumpSock.webp" alt="leg sock" loading="lazy">
+                                <img class="product-image" src="images/webP/other/tpHolder1.webp" alt="tpHolder" loading="lazy">
+                                <img class="product-image" src="images/webP/other/tpHolder2.webp" alt="tpHolder" loading="lazy">
+                                <img class="product-image" src="images/webP/other/tpHolder3.webp" alt="tpHolder" loading="lazy">
+                                <img class="product-image" src="images/webP/other/xmasBags.webp" alt="holiday bags" loading="lazy">
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="divider-line"></div>
+
+            <div class="dropdown">
+                <div class="dropdown-section">
+                    <div class="product-type">
+                        <h3 class="product-name">Adult</h3>
+                    </div>
+                    <div class="product-pics">
+                        <div class="product-pic-content">
+                            <div class="product-image-container">
+                                <img class="product-image" src="images/webP/adult/bongBuddies.webp" alt="bong" loading="lazy">
+                                <img class="product-image" src="images/webP/adult/bongBuddy2.webp" alt="bong" loading="lazy">
+                                <img class="product-image" src="images/webP/adult/bongBuddy3.webp" alt="bong" loading="lazy">
+                                <img class="product-image" src="images/webP/adult/dickBag.webp" alt="bag holder" loading="lazy">
+                                <img class="product-image" src="images/webP/adult/dickBagWithWineTopper.webp" alt="bag holder with toppers" loading="lazy">
+                                <img class="product-image" src="images/webP/adult/dickPanda.webp" alt="panda dick" loading="lazy">
+                                <img class="product-image" src="images/webP/adult/titcozy.webp" alt="can tits" loading="lazy">
+                                <img class="product-image" src="images/webP/adult/wineToppers.webp" alt="wine toppers" loading="lazy">
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="divider-line"></div>
+            
         </section>
 
         <section id="contact" class="contact">
@@ -92,31 +310,33 @@
         </section>
     </main>    
     <footer>
-        <nav class="footer flex">
-            <div class="footer-nav flex">
-                <img class="logo" src="images/logoIdeaSmall.gif" alt="footer logo">
-                <div class="nav-goto footer-goto flex">
-                    <a href="#main">Home</a>
-                    <a href="#products">Products</a>
-                    <a href="#contact">Contact</a>
-                </div> 
-            </div>
-            
-            <div class="footer-social-links flex">
-                <div class="social-link">
-                    <i class="fa-brands fa-facebook"></i>
+        <nav class="footer">
+            <div class="footer-nav-container flex">
+                <div class="footer-nav flex">
+                    <img class="logo" src="images/logoIdeaSmall.gif" alt="footer logo">
+                    <div class="nav-goto footer-goto flex">
+                        <a href="#main">Home</a>
+                        <a href="#products">Products</a>
+                        <a href="#contact">Contact</a>
+                    </div> 
                 </div>
-                <div class="social-link">
-                    <i class="fa-brands fa-tiktok"></i>
+                
+                <div class="footer-social-links flex">
+                    <div class="social-link">
+                        <i class="fa-brands fa-facebook"></i>
+                    </div>
+                    <div class="social-link">
+                        <i class="fa-brands fa-tiktok"></i>
+                    </div>
+                    <div class="social-link">
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+                    <div class="social-link">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </div>
+                    <!-- <i class="fa-solid fa-envelope"></i> -->
                 </div>
-                <div class="social-link">
-                    <i class="fa-brands fa-instagram"></i>
-                </div>
-                <div class="social-link">
-                    <i class="fa-brands fa-linkedin-in"></i>
-                </div>
-                <!-- <i class="fa-solid fa-envelope"></i> -->
-            </div>
+            </div>            
         </nav>
     </footer>    
 </body>

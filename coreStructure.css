@@ -8,6 +8,8 @@
     --font-size-120: 1.2rem;
     --font-size-80: .8rem;
     --font-size-60: .6rem;
+
+    --border-radius: 5px;
 }
 
 body{
@@ -15,8 +17,9 @@ body{
     font-family: 'Raleway', sans-serif;
 }
 
-h1, h2{
+h1, h2, h3{
     font-family: 'Water Brush', cursive;
+    font-size: var(--font-size-200);
 }
 
 a{
@@ -52,9 +55,16 @@ a{
 .header-nav,
 .footer{
     background-color: var(--primary-color);
+}
+
+.header-nav-container,
+.footer-nav-container{
+    width: 80%;
+    max-width: 450px;
+    margin-inline: auto;
     align-items: center;
     justify-content: space-between;
-    padding: .5rem 1rem;
+    padding: .5rem 0;
 }
 
 .footer-nav{
@@ -74,7 +84,7 @@ a{
     border: 1px solid white;
     width: 25px;
     height: 25px;
-    border-radius: 5px;
+    border-radius: var(--border-radius);
     cursor: pointer;
     transition: .2s ease-in;
 }
