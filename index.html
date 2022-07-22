@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="#"> <!-- removes the can not find favicom.ico error message -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Water+Brush&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="resets.css">
+    <link rel="stylesheet" href="coreStructure.css">
+    <link rel="stylesheet" href="hero.css">
+    <link rel="stylesheet" href="products.css">
+    <script src="https://kit.fontawesome.com/532e282bae.js" crossorigin="anonymous"></script>
+    <title>Creative Hookers</title>
+</head>
+<body>
+    <nav class="header-nav flex">
+        <div>
+            <img class="logo" src="images/logoIdeaSmall.gif" alt="small logo">            
+        </div>
+        <div class="nav-goto flex">
+            <a href="#main">Home</a>
+            <a href="#products">Products</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+    <main class="container">
+        <section id="main" class="hero">
+            <h1>Welcome To Creative Hookers!</h1>
+            <div class="pic-grids">
+                <ol class="grid-scroller-container">
+                    <li id="carosel-slide1" class="grid-one carousel-slide" tabindex="0">
+                        <div class="carousel-snapper">
+                            <a href="#carose1-slide3" class="carousel-prev"></a>
+                            <a href="#carose1-slide2" class="carousel-next"></a>
+                        </div>
+                        <img class="g-one-pic-one" src="images/webP/bagGroup.webp" alt="bags">
+                        <img class="g-one-pic-two" src="images/webP/customTeacher5.webp" alt="apple">
+                        <img class="g-one-pic-three" src="images/webP/golfClubCover.webp" alt="golf cover">
+                        <img class="g-one-pic-four" src="images/webP/coaster2.webp" alt="coaster">
+                        <img class="g-one-pic-five" src="images/webP/beanie7.webp" alt="beanie">
+                        <img class="g-one-pic-six" src="images/webP/bearHeadBlanket.webp" alt="bear head">
+                    </li>
+                    <li id="carosel-slide2" class="grid-two carousel-slide" tabindex="0">
+                        <div class="carousel-snapper">
+                            <a href="#carosel-slide1" class="carousel-prev"></a>
+                            <a href="#carosel-slide3" class="carousel-next"></a>
+                        </div>
+                        <img class="g-two-pic-one" src="images/webP/starBlanket1.webp" alt="star blanket">
+                        <img class="g-two-pic-two" src="images/webP/zombieBrainHoodie2.webp" alt="zombie hoodie">
+                        <img class="g-two-pic-three" src="images/webP/mouseBlanket.webp" alt="mouse blanket">
+                        <img class="g-two-pic-four" src="images/webP/popSickle.webp" alt="pop sickle">
+                    </li>
+                    <li id="carosel-slide3" class="grid-three carousel-slide" tabindex="0">
+                        <div class="carousel-snapper">
+                            <a href="#carosel-slide2" class="carousel-prev"></a>
+                            <a href="#carosel-slide1" class="carousel-next"></a>
+                        </div>
+                        <img class="g-three-pic-one" src="images/webP/heartBlanket.webp" alt="heart blanket">
+                        <img class="g-three-pic-two" src="images/webP/gnome.webp" alt="gnome">
+                        <img class="g-three-pic-three" src="images/webP/bunny2.webp" alt="bunny">
+                        <img class="g-three-pic-four" src="images/webP/hoodieHorns.webp" alt="horned hoodie">
+                        <img class="g-three-pic-five" src="images/webP/legShark.webp" alt="leg shark">
+                    </li>
+                </ol>
+                <aside class="carousel-nav">
+                    <ol class="carousel-nav-list">
+                        <li class="carousel-nav-item">
+                            <a href="#carosel-slide1" class="carousel-nav-button">Go to slide 1</a>
+                        </li>
+                        <li class="carousel-nav-item">
+                            <a href="#carosel-slide2" class="carousel-nav-button">Go to slide 2</a>
+                        </li>
+                        <li class="carousel-nav-item">
+                            <a href="#carosel-slide3" class="carousel-nav-button">Go to slide 3</a>
+                        </li>
+                    </ol>
+                </aside>
+                
+            </div>
+        </section>
+
+        <section id="products" class="products">
+            <h2>Products</h2>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Contact Us</h2>
+        </section>
+    </main>    
+    <footer>
+        <nav class="footer flex">
+            <div class="footer-nav flex">
+                <img class="logo" src="images/logoIdeaSmall.gif" alt="footer logo">
+                <div class="nav-goto footer-goto flex">
+                    <a href="#main">Home</a>
+                    <a href="#products">Products</a>
+                    <a href="#contact">Contact</a>
+                </div> 
+            </div>
+            
+            <div class="footer-social-links flex">
+                <div class="social-link">
+                    <i class="fa-brands fa-facebook"></i>
+                </div>
+                <div class="social-link">
+                    <i class="fa-brands fa-tiktok"></i>
+                </div>
+                <div class="social-link">
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+                <div class="social-link">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </div>
+                <!-- <i class="fa-solid fa-envelope"></i> -->
+            </div>
+        </nav>
+    </footer>    
+</body>
+</html>
