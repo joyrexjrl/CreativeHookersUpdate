@@ -67,12 +67,6 @@ a{
     padding: .5rem 0;
 }
 
-.footer-nav{
-    align-items: center;
-    width: 60%;
-    justify-content: space-between;
-}
-
 .footer-goto{
     flex-direction: column;
     gap: .5rem;
@@ -89,6 +83,10 @@ a{
     transition: .2s ease-in;
 }
 
+.social-link a{
+    color: white;
+}
+
 .social-link i{
     position: absolute;
     top: 50%;
@@ -100,12 +98,11 @@ a{
     gap: .5rem;
 }
 
-a:hover{
-    color: var(--secondary-color);
-}
-
 .social-link:hover{
     color: var(--secondary-color);
     border: 1px solid var(--secondary-color);
 }
 
+.social-link:hover a{
+    color: var(--secondary-color);
+}

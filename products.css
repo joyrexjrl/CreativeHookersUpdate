@@ -4,10 +4,11 @@
 
 .products-info h2{
     font-size: var(--font-size-200);
+    padding-bottom: 2rem;
 }
 
 .products-info p{
-    max-width: 25ch;
+    max-width: 40ch;
     margin-inline: auto;
     padding-bottom: 2rem;
 }
@@ -47,18 +48,21 @@
     color: var(--primary-color);
 }
 
-.product-type:after{
+.product-type::after{
     content: url(images/arrowDown.svg);    
     position: absolute;
     right: 1rem;
     transition: transform .2s ease-in-out;
 }
 
+.product-type.active::after{
+    transform: rotate(180deg);
+}
+
 .product-image-container{
     display: grid;
     gap: .5rem;
     grid-template-columns: repeat(auto-fit, minmax(9rem, 1fr));
-    box-shadow: 10px 10px 10px var(--primary-color);
     background-color: var(--primary-color);
     border-radius: var(--border-radius);
 }

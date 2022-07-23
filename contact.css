@@ -1,0 +1,15 @@
+.contact h2,
+.contact p{
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.contact p{
+    max-width: 40ch;
+    margin-inline: auto;
+}
+
+.contact-email{
+    color: var(--primary-color);
+    font-size: 1.3rem;
+}
